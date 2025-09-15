@@ -1,0 +1,38 @@
+body{
+    background: url(images/edubackground.png) top; /* Background image centered */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Cover the entire background */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Font for text */
+    font-size: small; /* Default font size */
+    margin: 0px;  /*Removes default page margin */
+    
+}
+
+#tableContainer {
+    display: table; /* Makes div behave like a table */
+}
+
+#tableRow {
+    display:flex; /* Makes div behave like a table row */
+    margin: 20px; /* Spacing around the row */
+}
+
+#educationExp {
+    font-size: 100%; /* Larger text for education/experience */
+    text-align:left; /* Left-aligned */
+    color: #ffffff; /* White text */
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+    margin-left: 90px; /* Margin from left side */
+    margin-right: 115px; /* Margin from right side */
+}
+
+#educationOther {
+    font-size: 100%; /* Larger text for education/experience */
+    text-align:left; /* Left-aligned */
+    color: #ffffff; /* White text */
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+}
+
+h3 {
+    margin-bottom: 2px;  /* just a little space below the title */
+}

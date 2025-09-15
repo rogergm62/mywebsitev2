@@ -1,0 +1,69 @@
+body{
+    background: url(images/Cables.png) top; /* Background image centered */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Font for text */
+    font-size: small; /* Default font size */
+    margin: 0px;  /*Removes default page margin */
+}
+
+header{
+    background-color: #44076f; /* Purple background for header */
+    color: #ffffff; /* White text */
+    margin: 10px 10px 0px 10px; /* Top spacing around header */
+    height: 50px; /* Fixed header height */
+}
+
+.nav-links {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Spaces items to edges */
+    align-items: center; /* Vertically centers items */
+    padding: 0px 10px 0px 10px; /* Padding on left/right */
+}
+
+.nav-links a {
+    color: #ffffff;     /* make links white */
+    text-decoration: none;
+    margin-left: 20px;  /* space between links */
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* highlight color on hover */
+}
+
+#tableContainer {
+    display: table; /* Makes div behave like a table */
+    /*border-spacing: 10px; /* Adds spacing between “cells” around cells */
+    /*margin: 10px; /* Spacing around the table */
+}
+
+#tableRow {
+    display:flex; /* Makes div behave like a table row */
+    margin: 20px; /* Spacing around the row */
+}
+
+#main{
+    flex:auto; /* Takes up remaining space */
+    margin-left: 50px; /* Space between main and aside */
+    margin-right: 150px; /* Space between main and aside */
+    /*background-color: #cdeaee; /* Light blue background */
+    align-items: center; /* Centers content horizontally */
+}
+
+aside {
+    flex: auto; /* Takes up remaining space */
+    /*background-color: #ffcc00; /* Yellow background */
+    color: #05fa0e; /* White text */
+    font-size: 170%; /* large text size */
+    text-align: center; /* Class that centers text */
+    text-shadow: black 2px 2px 4px; /* Black shadow for text */
+    
+}
+
+footer {
+    background-color: #44076f; /* Purple footer */
+    color: #ffffff; /* White text */
+    text-align: center; /* Centered text */
+    font-size: 100%; /* Normal size */
+    margin: 15px 10px 0px 10px; /* Spacing on left/right */
+}
+
